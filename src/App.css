@@ -2,6 +2,13 @@
   border-radius: 10px;
 }
 
+.center{
+  align-content: center;
+  align-self: center;
+  margin: auto;
+ 
+}
+
 .details{
   width: 600px;
   align-content: center;
@@ -9,4 +16,11 @@
   border-radius: 20px;
   margin: auto;
   margin-top: 20px;
+}
+
+.signin-form{
+  width: 40%;
+  border: 2px gray;
+  border-color: gray;
+  
 }

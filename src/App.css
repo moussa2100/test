@@ -1,0 +1,12 @@
+.rad{
+  border-radius: 10px;
+}
+
+.details{
+  width: 600px;
+  align-content: center;
+  align-self: center;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 20px;
+}

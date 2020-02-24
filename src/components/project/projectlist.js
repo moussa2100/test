@@ -2,14 +2,19 @@ import React, { Component } from 'react';
 import '../../App.css';
 import ProjectSummary from './projectsummary';
 
-const projectlist = ()=>{
-    return(
+
+const projectlist = (props)=>{
+   debugger;
+   return(
 <React.Fragment>
 
       <div className='project-list section' >
-        <ProjectSummary />
-        <ProjectSummary />
-        <ProjectSummary />
+        {
+          props.projects && props.projects.map( item =>{
+            return <ProjectSummary project={item} />
+
+          } )
+        }
       </div>
 
         
